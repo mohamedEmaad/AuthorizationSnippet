@@ -37,7 +37,6 @@
 		F97B09BF22076C2400CD67CD /* RegisterationViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09A922076C2300CD67CD /* RegisterationViewPresenter.swift */; };
 		F97B09C022076C2400CD67CD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09AA22076C2300CD67CD /* RegisterView.swift */; };
 		F97B09C122076C2400CD67CD /* UserTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09AB22076C2300CD67CD /* UserTypeView.swift */; };
-		F97B09C222076C2400CD67CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09AD22076C2300CD67CD /* Constants.swift */; };
 		F97B09C322076C2400CD67CD /* ApiExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09AF22076C2300CD67CD /* ApiExtension.swift */; };
 		F97B09C422076C2400CD67CD /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09B022076C2300CD67CD /* ApiHelper.swift */; };
 		F97B09C522076C2400CD67CD /* ApiHelperImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B09B122076C2300CD67CD /* ApiHelperImp.swift */; };
@@ -118,7 +117,6 @@
 		F97B09A922076C2300CD67CD /* RegisterationViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterationViewPresenter.swift; sourceTree = "<group>"; };
 		F97B09AA22076C2300CD67CD /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		F97B09AB22076C2300CD67CD /* UserTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTypeView.swift; sourceTree = "<group>"; };
-		F97B09AD22076C2300CD67CD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F97B09AF22076C2300CD67CD /* ApiExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiExtension.swift; sourceTree = "<group>"; };
 		F97B09B022076C2300CD67CD /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		F97B09B122076C2300CD67CD /* ApiHelperImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelperImp.swift; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 		F97B09AC22076C2300CD67CD /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				F97B09AD22076C2300CD67CD /* Constants.swift */,
 				F97B09AE22076C2300CD67CD /* dataManager */,
 				F97B09B722076C2300CD67CD /* TextValidator.swift */,
 			);
@@ -368,7 +365,6 @@
 				F97B09C722076C2400CD67CD /* DataManager.swift in Sources */,
 				F97B09C922076C2400CD67CD /* UserDefaultHelper.swift in Sources */,
 				F97B09C022076C2400CD67CD /* RegisterView.swift in Sources */,
-				F97B09C222076C2400CD67CD /* Constants.swift in Sources */,
 				F97B09BC22076C2400CD67CD /* PopLayoutView.swift in Sources */,
 				F97B09BB22076C2400CD67CD /* LoginViewPresenter.swift in Sources */,
 			);
