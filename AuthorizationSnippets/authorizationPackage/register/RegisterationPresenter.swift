@@ -24,6 +24,10 @@ class RegisterationPresenter {
     // check for inputs and register
     func checkForInputsDataAndRegister(username: String, phone: String, password: String, email: String?, userType: UserType){
         self.viewPresenter.showLoading()
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(2000)) {[unowned self] in
+            self.viewPresenter.done()
+            self.viewPresenter.hideLoading()
+        }
 //        self.dataManger.register(registerMutation: RegisterNewUserMutation(userInput: UserInput(role: "", type: "\(userType)", name: username, email: email, password: password, phone: phone, fcmToken: "")))
     }
 }

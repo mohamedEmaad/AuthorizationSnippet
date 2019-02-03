@@ -69,6 +69,10 @@ class LoginViewController: ParentViewController {
 }
 
 extension LoginViewController: LoginViewPresenter{
+    func done() {
+        self.showSnackBar(text: "Login is successfully done", bottomMargin: -30, snackBarStatus: .success)
+    }
+    
     func showLoading() {
         self.scrollContentView.showLoading()
     }

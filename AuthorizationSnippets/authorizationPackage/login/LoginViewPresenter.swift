@@ -10,5 +10,5 @@ import Foundation
 import NewBaseFrameWork
 
 protocol LoginViewPresenter: StatusClass {
-    
+        func done()
 }

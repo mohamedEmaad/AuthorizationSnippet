@@ -10,5 +10,5 @@ import Foundation
 import NewBaseFrameWork
 
 protocol RegisterationViewPresenter: StatusClass{
-    
+    func done()
 }

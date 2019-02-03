@@ -90,8 +90,7 @@ extension RegisterationViewController: RegisterViewClickListener{
     }
     
     func onRegisterButtonClick(username: String, phone: String, password: String, email: String?, userType: UserType) {
-        print("here we go man \(username) and the phone \(phone) and the password \(password) and the email \(email ?? "") and the userType \(userType)")
-//        self.presenter.checkForInputsDataAndRegister(username: username, phone: phone, password: password, email: email)
+        self.presenter.checkForInputsDataAndRegister(username: username, phone: phone, password: password, email: email, userType: userType)
     }
     
     func onLoginClicked() {
@@ -101,6 +100,10 @@ extension RegisterationViewController: RegisterViewClickListener{
 }
 
 extension RegisterationViewController: RegisterationViewPresenter{
+    func done() {
+        self.showSnackBar(text: "Register is successfully done", bottomMargin: -30, snackBarStatus: .success)
+    }
+    
     func showLoading() {
         self.scrollContentView.showLoading()
     }

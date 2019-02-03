@@ -23,6 +23,12 @@ class LoginPresenter{
     
     func loginNow(username: String, password: String){
         self.viewPresenter.showLoading()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(2000)) {[unowned self] in
+            self.viewPresenter.done()
+            self.viewPresenter.hideLoading()
+        }
+        
 //        self.getLoginResponse(observable: self.dataManger.login(login: LoginMutation(userInput: UserInput(email: username, password: password))))
     }
     
