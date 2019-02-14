@@ -50,6 +50,14 @@
 		F97B09D122076DE500CD67CD /* IQKeyboardManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F97B09CD22076DDA00CD67CD /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F97B09D222076DE500CD67CD /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97B09CC22076DDA00CD67CD /* IQKeyboardManagerSwift.framework */; };
 		F97B09D322076DE500CD67CD /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F97B09CC22076DDA00CD67CD /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F9B487162214FE2A005CE1AD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B487122214FE2A005CE1AD /* TableViewCell.swift */; };
+		F9B487172214FE2A005CE1AD /* TableViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B487132214FE2A005CE1AD /* TableViewObject.swift */; };
+		F9B487182214FE2A005CE1AD /* TableViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B487142214FE2A005CE1AD /* TableViewView.swift */; };
+		F9B487192214FE2A005CE1AD /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B487152214FE2A005CE1AD /* TableViewViewController.swift */; };
+		F9B4871E2214FF14005CE1AD /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B4871A2214FF08005CE1AD /* Differentiator.framework */; };
+		F9B4871F2214FF14005CE1AD /* Differentiator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9B4871A2214FF08005CE1AD /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F9B487202214FF14005CE1AD /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B4871B2214FF08005CE1AD /* RxDataSources.framework */; };
+		F9B487212214FF14005CE1AD /* RxDataSources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9B4871B2214FF08005CE1AD /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +89,9 @@
 				F97B096F22075B6200CD67CD /* NewBaseFrameWork.framework in Embed Frameworks */,
 				F97B09482207596900CD67CD /* AMPopTip.framework in Embed Frameworks */,
 				F97B09522207596900CD67CD /* SnapKit.framework in Embed Frameworks */,
+				F9B487212214FF14005CE1AD /* RxDataSources.framework in Embed Frameworks */,
 				F97B09D122076DE500CD67CD /* IQKeyboardManager.framework in Embed Frameworks */,
+				F9B4871F2214FF14005CE1AD /* Differentiator.framework in Embed Frameworks */,
 				F97B094A2207596900CD67CD /* RxAtomic.framework in Embed Frameworks */,
 				F97B09D322076DE500CD67CD /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
 				F97B094C2207596900CD67CD /* RxBlocking.framework in Embed Frameworks */,
@@ -128,6 +138,12 @@
 		F97B09B722076C2300CD67CD /* TextValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
 		F97B09CC22076DDA00CD67CD /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
 		F97B09CD22076DDA00CD67CD /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQKeyboardManager.framework; sourceTree = "<group>"; };
+		F9B487122214FE2A005CE1AD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F9B487132214FE2A005CE1AD /* TableViewObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewObject.swift; sourceTree = "<group>"; };
+		F9B487142214FE2A005CE1AD /* TableViewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewView.swift; sourceTree = "<group>"; };
+		F9B487152214FE2A005CE1AD /* TableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		F9B4871A2214FF08005CE1AD /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Differentiator.framework; sourceTree = "<group>"; };
+		F9B4871B2214FF08005CE1AD /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxDataSources.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +156,9 @@
 				F97B096E22075B6200CD67CD /* NewBaseFrameWork.framework in Frameworks */,
 				F97B09472207596900CD67CD /* AMPopTip.framework in Frameworks */,
 				F97B09512207596900CD67CD /* SnapKit.framework in Frameworks */,
+				F9B487202214FF14005CE1AD /* RxDataSources.framework in Frameworks */,
 				F97B09D022076DE500CD67CD /* IQKeyboardManager.framework in Frameworks */,
+				F9B4871E2214FF14005CE1AD /* Differentiator.framework in Frameworks */,
 				F97B09492207596900CD67CD /* RxAtomic.framework in Frameworks */,
 				F97B09D222076DE500CD67CD /* IQKeyboardManagerSwift.framework in Frameworks */,
 				F97B094B2207596900CD67CD /* RxBlocking.framework in Frameworks */,
@@ -153,6 +171,8 @@
 		F97B091A2207585500CD67CD = {
 			isa = PBXGroup;
 			children = (
+				F9B4871A2214FF08005CE1AD /* Differentiator.framework */,
+				F9B4871B2214FF08005CE1AD /* RxDataSources.framework */,
 				F97B09CD22076DDA00CD67CD /* IQKeyboardManager.framework */,
 				F97B09CC22076DDA00CD67CD /* IQKeyboardManagerSwift.framework */,
 				F97B096822075B4A00CD67CD /* NewBaseFrameWork.xcodeproj */,
@@ -178,6 +198,7 @@
 		F97B09252207585500CD67CD /* AuthorizationSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				F9B487112214FE2A005CE1AD /* tableView */,
 				F97B099F22076C2300CD67CD /* authorizationPackage */,
 				F97B09AC22076C2300CD67CD /* utils */,
 				F97B09262207585500CD67CD /* AppDelegate.swift */,
@@ -254,6 +275,17 @@
 				F97B09B622076C2300CD67CD /* UserDefaultHelperImp.swift */,
 			);
 			path = dataManager;
+			sourceTree = "<group>";
+		};
+		F9B487112214FE2A005CE1AD /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				F9B487122214FE2A005CE1AD /* TableViewCell.swift */,
+				F9B487132214FE2A005CE1AD /* TableViewObject.swift */,
+				F9B487142214FE2A005CE1AD /* TableViewView.swift */,
+				F9B487152214FE2A005CE1AD /* TableViewViewController.swift */,
+			);
+			path = tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +379,9 @@
 			files = (
 				F97B09BA22076C2400CD67CD /* LoginViewController.swift in Sources */,
 				F97B09B822076C2400CD67CD /* LoginPresenter.swift in Sources */,
+				F9B487172214FE2A005CE1AD /* TableViewObject.swift in Sources */,
+				F9B487182214FE2A005CE1AD /* TableViewView.swift in Sources */,
+				F9B487192214FE2A005CE1AD /* TableViewViewController.swift in Sources */,
 				F97B09C822076C2400CD67CD /* DataManagerImp.swift in Sources */,
 				F97B09C322076C2400CD67CD /* ApiExtension.swift in Sources */,
 				F97B09292207585500CD67CD /* ViewController.swift in Sources */,
@@ -367,6 +402,7 @@
 				F97B09C022076C2400CD67CD /* RegisterView.swift in Sources */,
 				F97B09BC22076C2400CD67CD /* PopLayoutView.swift in Sources */,
 				F97B09BB22076C2400CD67CD /* LoginViewPresenter.swift in Sources */,
+				F9B487162214FE2A005CE1AD /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

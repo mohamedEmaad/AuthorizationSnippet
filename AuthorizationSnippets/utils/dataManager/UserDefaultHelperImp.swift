@@ -78,7 +78,7 @@ class UserDefaultHelperImp: UserDefaultHelper {
     }
     
     func isDeviceLanguageArabic() -> Bool {
-        return Language.currentLanguage().contains(AR)
+        return Language.currentLanguage().contains("ar")
     }
     
     /**
